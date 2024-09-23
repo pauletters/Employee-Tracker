@@ -3,7 +3,7 @@ CREATE DATABASE tracker_db;
 
 \c tracker_db;
 
-
+-- Creates the department, department_role, and employee tables
 CREATE TABLE department (
   id SERIAL PRIMARY KEY,
   name VARCHAR(30) NOT NULL

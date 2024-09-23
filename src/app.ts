@@ -10,6 +10,7 @@ import {
   updateEmployeeRole
 } from './functions.js';
 
+// The mainMenu is an async function that provides a list of options for the user to choose from. It then uses the action variable to determine which function to call.
 async function mainMenu(): Promise<void> {
     while (true) {
       const { action } = await inquirer.prompt([
@@ -30,6 +31,7 @@ async function mainMenu(): Promise<void> {
         }
       ]);
   
+    //   These are all the possible actions that can be selected. These function were imported from functions.ts.
       switch (action) {
         case 'View all departments':
           await viewAllDepartments();
@@ -60,6 +62,7 @@ async function mainMenu(): Promise<void> {
     }
   }
 
+// The startCLI function is an async function that calls the mainMenu function. This function is exported so that it can be called from server.ts.
 export async function startCLI() {
   try {
     await mainMenu();

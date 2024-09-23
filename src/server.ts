@@ -2,7 +2,7 @@ import express from 'express';
 import { connectToDb } from './connection.js';
 import { startCLI } from './app.js';
 
-
+// The startServer function is an async function that connects to the database and starts the Express server. It also implements the startCLI function from app.js.
 const startServer = async () => {
     await connectToDb();
   

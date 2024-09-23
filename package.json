@@ -10,6 +10,8 @@
         "start": "node dist/server.js"
     },
     "dependencies": {
+        "cli-table": "^0.3.11",
+        "cli-table3": "^0.6.5",
         "dotenv": "^16.4.5",
         "express": "^4.17.1",
         "inquirer": "^8.1.2",
@@ -19,6 +21,8 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
+        "@types/cli-table": "^0.3.4",
+        "@types/cli-table3": "^0.6.2",
         "@types/express": "^4.17.21",
         "@types/inquirer": "^9.0.7",
         "@types/pg": "^8.11.6",
