@@ -1,3 +1,5 @@
+
+-- Adds base data to the database
 INSERT INTO department (name)
 VALUES ('Engineering'), 
        ('Sales'), 
