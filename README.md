@@ -42,7 +42,7 @@ At this time no further contributions are needed.
 ## Tests
 Below is a link to a video of the program in action! 
 
-<video controls src="Employee-Tracker-Example-Video.mp4" title="Title"></video>
+https://drive.google.com/file/d/1_U7Zfv6YAcGObshMqGb-fd180Fx0jFk4/view?usp=sharing
 
 ## Questions
 GitHub: [pauletters](https://github.com/pauletters)
